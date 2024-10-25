@@ -70,4 +70,4 @@ function selectNumbers(arrayNumber, highNum, lowNum) {
 }
 
 selectNumbers(num, a, b);
-console.log("ciao: " + numDue);
+console.log(numDue);
