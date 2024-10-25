@@ -3,6 +3,47 @@
 // Ogni oggetto descriverà una bici da corsa con le seguenti proprietà: nome e peso.
 // Stampare a schermo la bici con peso minore.
 
+// const biciclette = {
+//   name: "bike",
+//   weight: {
+//     numWeight: 20,
+//     unit: "Kg",
+//   },
+// };
+
+const biciclette = [
+  {
+    name: "bike",
+    weight: {
+      numWeight: 20,
+      unit: "Kg",
+    },
+  },
+  {
+    nome: "montainbike",
+    weight: {
+      numWeight: 25,
+      unit: "Kg",
+    },
+  },
+  {
+    nome: "citybike",
+    weight: {
+      numWeight: 15,
+      unit: "Kg",
+    },
+  },
+  {
+    nome: "racebike",
+    weight: {
+      numWeight: 10,
+      unit: "Kg",
+    },
+  },
+];
+
+console.log(biciclette);
+
 // Snack 2
 // Creare un array di oggetti di squadre di calcio.
 //  Ogni squadra avrà diverse proprietà: nome, punti fatti, falli subiti.
